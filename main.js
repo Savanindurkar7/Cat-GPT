@@ -15,13 +15,13 @@ function submit() {
 
   questionDiv.innerHTML = `
     <div class="question">
-      <img src="/user-logo.jpg" alt="cat-logo.png">
+      <img src="user-logo.jpg" alt="cat-logo.png">
       <p class="txt">${question}</p>
     </div>`;
   
   answerDiv.innerHTML = `
     <div class="answer">
-      <img src="/cat-logo.png" alt="">
+      <img src="cat-logo.png" alt="">
       <p class="txt"></p>
     </div>`;
 
